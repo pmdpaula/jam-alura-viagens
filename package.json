@@ -1,5 +1,5 @@
 {
-  "name": "with-styled-components",
+  "name": "jam-stack-form-viagem",
   "version": "1.0.0",
   "scripts": {
     "dev": "next",
@@ -35,5 +35,10 @@
     "prettier": "2.2.1",
     "prettier-eslint": "^12.0.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
